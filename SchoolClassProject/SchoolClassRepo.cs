@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +29,7 @@ namespace SchoolClassProject
             }
             else
             {
-                return $"{_classes.OrderByDescending(c => c.FizetendoPenz).First().Evfolyam}.{_classes.OrderByDescending(c => c.FizetendoPenz).First().Azonosito}";
+                return $"{_classes.OrderByDescending(sc => sc.FizetendoPenz).First().Evfolyam}.{_classes.OrderByDescending(sc => sc.FizetendoPenz).First().Azonosito}";
             }
         }
     }
