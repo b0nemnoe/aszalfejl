@@ -30,7 +30,7 @@ namespace SchoolClassProject
 
         public override string ToString()
         {
-            return $"{Evfolyam}.{Azonosito} ({FizetendoPenz} Ft)";
+            return $"{Evfolyam}.{Azonosito} ({FizetendoPenz} Ft )";
         }
 
         
